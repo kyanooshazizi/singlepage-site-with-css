@@ -1,0 +1,21 @@
+.stat-section {
+    background-color: var(--bcolor);
+    margin-top: 100px;
+    font-size: 16px;
+}
+
+.stat-section .stat-section-mohtava {
+    width: 100%;
+}
+
+.stat-section-mohtava img {
+    width: 50px;
+}
+
+.stat-section-mohtava .state-text {
+    line-height: 35px;
+}
+
+.state-text p:nth-child(1) {
+    color: white;
+}

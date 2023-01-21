@@ -1,0 +1,90 @@
+.line-top-aboutus {
+    margin-bottom: 10px;
+    margin-top: 30px;
+}
+/* dev1 */
+.line-top-aboutus span::after {
+    content: "";
+    width: 100px;
+    height: 3px;
+    background-color: blue;
+    position: absolute;
+    top: 10px;
+    left: 50px;
+}
+
+.line-top-aboutus span::before {
+    content: "";
+    width: 100px;
+    height: 3px;
+    background-color: blue;
+    position: absolute;
+    top: 10px;
+    right: 50px;
+}
+
+@media screen and (max-width:600px) {
+    .line-top-aboutus span::after {
+        content: "";
+        width: 100%;
+    }
+    .line-top-aboutus span::before {
+        content: "";
+        width: 100%;
+    }
+}
+
+
+/* about us */
+
+.text-aboutus {
+    background-color: rgba(246, 255, 0, 0.115);
+    box-shadow: 5px 5px 10px rgba(246, 255, 0, 0.115);
+    border-radius: 5px;
+    padding: 25px;
+    position: relative;
+    margin-top: 30px;
+}
+
+.text-aboutus p {
+    text-align: justify;
+    color: rgb(58, 57, 57);
+}
+
+.text-aboutus h3 {
+    border-bottom: 2px solid rgb(182, 180, 180);
+    margin-bottom: 10px;
+    color: rgb(85, 83, 83);
+}
+
+.text-aboutus a {
+    margin-top: 20px;
+    background-color: blue;
+    color: #fff;
+    padding: 6px;
+    border-radius: 2px;
+    margin-right: 200px;
+    position: absolute;
+    bottom: 2px;
+    left: 5px;
+}
+
+.text-aboutus a:hover {
+    border-radius: 15px 0px 15px 0px;
+}
+
+.img-about img {
+    width: 100%;
+}
+
+@media screen and (max-width:768px) {
+    .img-about {
+        display: none;
+    }
+    .text-aboutus {
+        font-size: 14px;
+    }
+    .text-aboutus a {
+        padding: 1px 3px;
+    }
+}

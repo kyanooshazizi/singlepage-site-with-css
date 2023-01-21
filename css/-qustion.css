@@ -1,0 +1,115 @@
+.line-top-section-qustion {
+    margin-bottom: 30px;
+    margin-top: 15px;
+}
+
+.line-top-section-qustion span::after {
+    content: "";
+    width: 100px;
+    height: 3px;
+    background-color: blue;
+    position: absolute;
+    top: 10px;
+    left: 84px;
+}
+
+.line-top-section-qustion span::before {
+    content: "";
+    width: 100px;
+    height: 3px;
+    background-color: blue;
+    position: absolute;
+    top: 10px;
+    right: 84px;
+}
+
+
+/* start part1 */
+
+.section-qustion-parent {
+    background-image: url(../img/back.jpg);
+    width: 100%;
+    background-size: cover;
+    /* float: right; */
+}
+
+.qustion-bg {
+    background-color: #fff;
+    box-shadow: 1px 2px 5px 0px rgb(98 93 93);
+    max-width: 400px;
+    padding: 15px;
+    margin-top: 1px;
+}
+
+.qustion-bg li p {
+    color: rgb(124, 115, 115);
+    font-size: 14px;
+}
+
+.qustion-bg li i,
+.qustion-bg li span {
+    color: blue;
+    font-weight: 600;
+}
+
+.qustion-bg ul li {
+    margin-bottom: 20px;
+}
+
+
+/* end part1 */
+
+
+/* start part 2 */
+
+.tab input:checked~.tab-content {
+    max-height: 100px;
+    /* max-height: 100vh; */
+}
+
+.tab input:checked~label::before {
+    /* content: "\002D";
+    font-size: 30px; */
+    transform: rotate(45deg);
+    color: blue;
+}
+
+.tab label {
+    /* background-color: blue; */
+    padding: 0px 10px;
+    color: #fff;
+    display: inline-block;
+    cursor: pointer;
+}
+
+.tab label::before {
+    content: "\002B";
+    margin-left: 10px;
+    vertical-align: middle;
+    font-size: 30px;
+    font-weight: bold;
+    /* تا بتوانیم تغیرات را روی آن هنگام کلیک اعمال کنیم */
+    display: inline-block;
+    transition: .3s ease-in;
+}
+
+.tab {
+    background-color: var(--bcolor);
+}
+
+.tab .tab-content {
+    background-color: rgb(233, 233, 233);
+    margin-top: 5px;
+    max-height: 0;
+    overflow: scroll;
+    text-align: justify;
+    font-size: 14px;
+}
+
+.tab .tab-content p {
+    padding: 10px;
+}
+
+.tab input {
+    display: none;
+}

@@ -1,0 +1,60 @@
+/* start navigatin */
+
+.nav-img {
+    width: 50px;
+    vertical-align: -20px;
+}
+
+.nav {
+    background-color: rgb(239 239 239);
+    box-shadow: 2px 2px 5px 0pxrgb(239, 239, 239)f;
+    position: sticky;
+    top: 0px;
+    z-index: 999;
+    border-radius: 3px;
+}
+
+.nav a {
+    padding: 8px 12px;
+    color: rgb(18, 17, 17);
+    transition: all 0.2s linear;
+}
+
+.nav .menu {
+    display: inline;
+}
+
+.nav a:not(:last-child):hover {
+    border-bottom: 2px solid rgb(211, 89, 7);
+    color: rgb(255, 145, 0)
+}
+
+.nav .menu .icon {
+    float: left;
+    margin-top: 8px;
+    display: none;
+}
+
+@media only screen and (max-width:600px) {
+    .nav .menu a:not(:last-child) {
+        display: none;
+    }
+    .nav .menu .icon {
+        display: block;
+        position: absolute;
+        top: 5px;
+        left: 5px;
+    }
+    .nav .humbarger a:not(:last-child) {
+        display: block;
+    }
+    .nav .humbarger a:not(:last-child):hover {
+        width: 120px;
+    }
+    .nav {
+        position: relative;
+    }
+}
+
+
+/* End navigatin */

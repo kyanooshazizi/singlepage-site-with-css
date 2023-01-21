@@ -1,0 +1,85 @@
+/* (start) contact */
+
+.container-fluid-custom1 {
+    background-color: rgb(1, 1, 46);
+}
+
+.container-custom1 a {
+    color: #fff;
+}
+
+.container-custom1 .adress a i {
+    color: orange;
+    margin: 3px;
+    padding: 3px 3px;
+}
+
+.container-custom1 .adress a {
+    font-size: 14px;
+}
+
+.container-custom1 .sotial a i {
+    padding: 6px 8px;
+    transition: all 0.3s linear;
+    vertical-align: 5px;
+}
+
+.container-custom1 .sotial a {
+    font-size: 18px;
+}
+
+.bt:hover {
+    background-color: white;
+    color: blue;
+    border-radius: 25%;
+}
+
+.container-custom1 .sotial .fa-instagram:hover {
+    background-color: white;
+    background-image: linear-gradient(red, blue);
+    border-radius: 25%;
+}
+
+.container-custom1 .sotial .fa-github:hover {
+    background-color: white;
+    color: black;
+    border-radius: 25%;
+}
+
+.container-custom1 .sotial {
+    direction: ltr !important;
+}
+
+@media only screen and (max-width:600px) {
+    .container-custom1 .adress span {
+        font-size: 10px;
+        border-bottom: 2px solid #fff;
+    }
+    .container-custom1 .sotial a i {
+        font-size: 14px;
+    }
+}
+
+@media only screen and (max-width:300px) {
+    .container-custom1 .adress a {
+        font-size: 10px;
+        border-bottom: 2px solid #fff;
+    }
+    .container-custom1 .adress i {
+        display: none;
+    }
+    .container-custom1 .sotial a i {
+        font-size: 12px;
+        padding: 2px;
+    }
+}
+
+@media only screen and (min-width:600px) and (max-width:720px) {
+    .container-custom1 .adress span {
+        font-size: 12px;
+        border-bottom: 1px solid #fff;
+    }
+}
+
+
+/* (end) contact */

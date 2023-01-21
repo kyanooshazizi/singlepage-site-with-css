@@ -1,0 +1,13 @@
+@import url(-contact.css);
+@import url(-navigation.css);
+@import url(-header.css);
+@import url(-section1-course.css);
+@import url(-aboutus.css);
+@import url(-section-techear.css);
+@import url(-stat.css);
+@import url(-section-article.css);
+@import url(-qustion.css);
+@import url(-footer.css);
+:root {
+    --bcolor: orange;
+}

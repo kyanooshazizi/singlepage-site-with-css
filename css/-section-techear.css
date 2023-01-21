@@ -1,0 +1,64 @@
+.teacher {
+    background-image: url(../img/istockphoto-1370544962-612x612.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    /* height: 200px; */
+    width: 100%;
+}
+
+.teacher-rotosh {
+    position: absolute;
+    top: 0px;
+    right: 0px;
+    background-color: rgba(0, 0, 0, 0.2);
+    width: 100%;
+    height: 100%;
+    vertical-align: bottom;
+}
+
+.teacher img {
+    width: 50%;
+}
+
+.teacher-text {
+    background-color: #fff;
+    line-height: 80px;
+    top: 60%;
+    left: 30%;
+    width: 50%;
+    box-shadow: 3px 4px 5px 0px #c1bebe;
+    border-radius: 20px 1px 20px 1px;
+}
+
+.teacher-text span {
+    background-color: blue;
+    color: #fff;
+    padding: 1px 14px;
+    border-radius: 3px;
+}
+
+.teacher-text a {
+    border: 2px solid blue;
+    padding: 1px 14px;
+    border-radius: 5px 1px 5px 1px;
+    margin-right: 60%;
+}
+
+.teacher-text a:hover {
+    background-color: blue;
+    color: #fff;
+}
+
+@media screen and (max-width:600px) {
+    .teacher-text {
+        font-size: 14px;
+        line-height: 35px;
+    }
+    .teacher-text a {
+        border: 2px solid blue;
+        padding: 0px 8px;
+        border-radius: 1px;
+        margin-right: 60%;
+    }
+}

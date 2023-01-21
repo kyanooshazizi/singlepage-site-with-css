@@ -1,0 +1,148 @@
+.footer {
+    background-color: rgb(1, 1, 60);
+}
+
+.footer .footer-text i {
+    color: orange;
+    font-size: 24px;
+}
+
+.footer .footer-text {
+    padding: 8px;
+    width: 90%;
+}
+
+.footer .footer-text span {
+    color: #fff;
+    font-size: 18px;
+}
+
+.footer .footer-text p {
+    font-size: 14px;
+    padding: 8px;
+    color: rgb(147, 147, 147);
+    text-align: justify;
+}
+
+
+/*start column2 */
+
+.footer .row div:nth-child(2) p {
+    font-size: 16px;
+    padding-bottom: 5px;
+    border-bottom: 2px solid rgb(147, 147, 147);
+    color: rgb(147, 147, 147);
+    margin-bottom: 10px;
+    width: 80%;
+}
+
+.footer .ul-li {
+    font-size: 14px;
+    color: rgb(147, 147, 147);
+    margin-bottom: 10px;
+    cursor: pointer;
+}
+
+.footer .ul-li li::before {
+    content: "\02C2";
+    font-size: 14px;
+    color: rgb(147, 147, 147);
+    vertical-align: -2px;
+    margin-left: 8px;
+}
+
+.footer .ul-li li:hover {
+    transform: translateX(-5px);
+    color: #fff;
+}
+
+
+/* start column3 */
+
+.footer .footer-contact p {
+    font-size: 14px;
+    padding: 8px;
+    border-bottom: 2px solid rgb(147, 147, 147);
+    color: rgb(147, 147, 147);
+    margin-bottom: 10px;
+    width: 80%;
+}
+
+.footer .footer-contact a {
+    margin: 10px 10px 20px 10px;
+    display: inline-block;
+    color: orange;
+}
+
+.footer-contact form input {
+    border-radius: 0px 5px 5px 0px;
+    padding: 8px;
+    border: 0;
+}
+
+.footer-contact form input:focus {
+    outline: 0;
+    background: #fff;
+}
+
+.footer-contact form input::placeholder {
+    color: orange;
+}
+
+.wrraper-form {
+    position: relative;
+}
+
+.footer-contact form button {
+    padding: 8px;
+    border-radius: 5px 0px 0px 5px;
+    cursor: pointer;
+    position: absolute;
+    right: 170px;
+    top: 0px;
+    border: 0;
+    background-color: orange;
+    color: #fff;
+}
+
+.footer-contact form button::before {
+    content: " ";
+    position: absolute;
+    border-width: 8px;
+    border-style: solid;
+    border-color: transparent transparent transparent orange;
+    top: 10px;
+    left: 56px;
+}
+
+
+/* start column 4 */
+
+.footer .tamas p {
+    font-size: 14px;
+    padding: 8px;
+    color: rgb(147, 147, 147);
+    border-bottom: 2px solid rgb(147, 147, 147);
+    width: 80%;
+}
+
+.footer .tamas li {
+    color: rgb(147, 147, 147);
+    padding: 10px;
+}
+
+.footer .tamas li i {
+    color: orange;
+    margin: 0px 0px 0px 8px;
+}
+
+
+/* پایان */
+
+.footer .the-end {
+    color: rgb(147, 147, 147);
+    text-align: center;
+    border-top: 2px solid rgb(147, 147, 147);
+    padding: 8px;
+    font-size: 14px;
+}
